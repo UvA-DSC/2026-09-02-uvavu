@@ -13,7 +13,7 @@ startdate: 2026-09-02       # machine-readable start date for the workshop in YY
 enddate: 2026-09-23        # machine-readable end date for the workshop in YYYY-MM-DD format like 2015-01-02
 instructor: ["Charlie Green", "Anouk Vlug", "Sreenithya Avadakkam"] # boxed, comma-separated list of instructors' names as strings, like ["Kay McNulty", "Betty Jennings", "Betty Snyder"]
 helper: ["Kitty Berteling", "Karin Beijering", "Isa Monkau"]     # boxed, comma-separated list of helpers' names, like ["Marlyn Wescoff", "Fran Bilas", "Ruth Lichterman"]
-email: ["dsc@uva.nl","second@example.org"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
+email: ["dsc@uva.nl"]    # boxed, comma-separated list of contact email addresses for the host, lead instructor, or whoever else is handling questions, like ["marlyn.wescoff@example.org", "fran.bilas@example.org", "ruth.lichterman@example.org"]
 # Optional variables
 collaborative_notes:  # URL for the workshop collaborative notes, e.g. an Etherpad or Google Docs document (e.g., https://pad.carpentries.org/2015-01-01-euphoria)
 eventbrite:           # alphanumeric key for Eventbrite registration, e.g., "1234567890AB" (if Eventbrite is being used)
@@ -329,11 +329,6 @@ address.
 
             Modify or remove the block below if you plan to record the workshop.
             {% endcomment %}
-            <p id="recordings">
-            Carpentries workshops are designed to be interactive rather than lecture-based, with lessons that build upon one another.
-            To foster a positive online learning environment, we strongly recommend that participants join in real time.
-            As a result, workshop recordings are not recommended and may not be available to learners.
-            </p>
         </dd>
     </div>
     <div class="row">
